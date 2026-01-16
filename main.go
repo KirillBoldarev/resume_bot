@@ -10,6 +10,8 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+
+		_ "github.com/go-telegram/bot" // ← Заглушка для создания go.sum
 )
 
 const telegramAPI = "https://api.telegram.org/bot"
